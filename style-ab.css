@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.book img{
+    height: 500px;
+    width: 75%;
+    margin-top: 100px;
+    border-radius: 4%;
+    border: 2px solid white;
+    transition: 0.8s;
+}
+
+.book{
+   margin-left: 90px;
+}
+
+.book img:hover{
+    transform: scale(1.1)
+}
+
+body{
+    background: rgb(128, 128, 128);
+}
+
+/* small Mobil*/
+
+@media (min-width:297px){
+    .book img{
+        height: 350px;
+        width: 90%;
+    }
+}
+
+.pho h2{
+    color:rgb(0, 132, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.pho p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.to h2{
+    color:rgb(0, 132, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.to p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+.ot h2{
+    color:rgb(0, 132, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.ot p{
+    color:white;
+    font-size:15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 13px;
+    margin-left: 50px;
+}
+
+
+/* small Mobil*/
+
+@media (max-width:400px){
+   .pho h2{
+    font-size: 18px;
+    margin-right: 30px;
+   }
+   .pho p{
+    font-size: 12px;
+    margin-right: 30px;
+   }
+
+   .to h2{
+    font-size: 18px;
+    margin-right: 30px;
+   }
+
+   .to p{
+    font-size: 12px;
+    margin-right: 30px;
+   }
+
+   .ot h2{
+    font-size: 18px;
+    margin-right: 30px;
+   }
+
+   .ot p{
+    font-size: 12px;
+    margin-right: 30px;
+   }
+
+} 
+
+
+/* small screen*/
+
+@media (max-width:1000px){
+    .pho h2{
+        font-size: 24px;
+        margin-right: 30px;
+    }
+       .pho p{
+        font-size: 12px;
+        margin-right: 30px;
+       }
+    
+       .to h2{
+        font-size: 24px;
+        margin-right: 30px;
+       }
+    
+       .to p{
+        font-size: 12px;
+        margin-right: 30px;
+       }
+    
+       .ot h2{
+        font-size: 24px;
+        margin-right: 30px;
+       }
+    
+       .ot p{
+        font-size: 12px;
+        margin-right: 30px;
+       }
+    
+       .main h2{
+        font-size: 24px;
+    }
+}
